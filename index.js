@@ -26,7 +26,7 @@ module.exports = {
   /**
    * @param {string} code
    * @param {Options} options
-   * @returns {ESLintParseResult['ast']} parsed AST result
+   * @returns {import('eslint').AST.Program} parsed AST result
    */
   parse: (code, options) => parseForESLint(code, options).ast,
 }

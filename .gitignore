@@ -1,3 +1,4 @@
 *.tsbuildinfo
+.*cache
 node_modules
 /index.d.ts

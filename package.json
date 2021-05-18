@@ -12,19 +12,21 @@
   ],
   "scripts": {
     "build": "tsc -p jsconfig.json",
-    "init": "simple-git-hooks && yarn-deduplicate --strategy fewer || exit 0",
-    "lint": "eslint .",
-    "prerelease": "yarn build",
-    "release": "changeset publish"
+    "lint": "eslint --cache .",
+    "prepare": "simple-git-hooks && yarn-deduplicate --strategy fewer || exit 0",
+    "prerelease": "npm run build",
+    "release": "clean-publish && changeset publish"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@angular-eslint/template-parser": "*"
   },
   "devDependencies": {
     "@1stg/common-config": "^2.0.0",
+    "@angular-eslint/template-parser": "^12.0.0",
     "@changesets/changelog-github": "^0.4.0",
     "@changesets/cli": "^2.16.0",
     "@types/eslint": "^7.2.10",
+    "clean-publish": "^2.2.0",
     "typescript": "^4.2.4"
   }
 }
