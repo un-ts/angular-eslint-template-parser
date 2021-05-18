@@ -5,11 +5,16 @@
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
   "scripts": {
     "build": "tsc -p jsconfig.json",
-    "lint": "eslint .",
     "init": "simple-git-hooks && yarn-deduplicate --strategy fewer || exit 0",
-    "prerelease": "npm run build",
+    "lint": "eslint .",
+    "prerelease": "yarn build",
     "release": "changeset publish"
   },
   "dependencies": {
