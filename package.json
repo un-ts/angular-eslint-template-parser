@@ -1,6 +1,6 @@
 {
   "name": "angular-eslint-template-parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "git+https://github.com/rx-ts/angular-eslint-template-parser.git",
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
