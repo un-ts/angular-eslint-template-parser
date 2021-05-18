@@ -1,0 +1,9 @@
+{
+  "extends": "@1stg/tsconfig/lib",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "outDir": "."
+  },
+  "files": ["index.js"]
+}

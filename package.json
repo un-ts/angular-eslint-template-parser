@@ -1,0 +1,25 @@
+{
+  "name": "angular-eslint-template-parser",
+  "version": "0.1.0",
+  "repository": "git+https://github.com/rx-ts/angular-eslint-template-parser.git",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p jsconfig.json",
+    "lint": "eslint .",
+    "init": "simple-git-hooks && yarn-deduplicate --strategy fewer || exit 0",
+    "prerelease": "npm run build",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@angular-eslint/template-parser": "*"
+  },
+  "devDependencies": {
+    "@1stg/common-config": "^2.0.0",
+    "@changesets/changelog-github": "^0.4.0",
+    "@changesets/cli": "^2.16.0",
+    "@types/eslint": "^7.2.10",
+    "typescript": "^4.2.4"
+  }
+}
