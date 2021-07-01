@@ -27,6 +27,6 @@
     "@changesets/cli": "^2.16.0",
     "@types/eslint": "^7.2.13",
     "clean-publish": "^2.2.0",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.5"
   }
 }
