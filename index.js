@@ -6,8 +6,8 @@
  */
 
 const _ =
-  /** @type {{parseForESLint: (code: string, options: any) => ESLintParseResult}} */ (
-    require('@angular-eslint/template-parser')
+  /** @type {{parseForESLint: (code: string, options: Options) => ESLintParseResult}} */ (
+    /** @type {any} */ (require('@angular-eslint/template-parser'))
   )
 
 /**
