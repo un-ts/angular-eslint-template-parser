@@ -181,17 +181,17 @@
   dependencies:
     eslint-scope "^5.1.0"
 
-"@angular/compiler@^12.1.4":
-  version "12.1.4"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-12.1.4.tgz#a29dd3e049baf4b3d5ce1049db1a0f82d7280f0a"
-  integrity sha512-csei4YTsdwYCWhr94AtW/Q3YyILLhjGVuV/zDZKQx5kB/3ukpUD+DppbblTo+NsLSk2BfsOepGUeCDMkIl9p3w==
+"@angular/compiler@^12.2.4":
+  version "12.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-12.2.4.tgz#8451b8f5d0326ad69cd93e6c8ff2be1f54410834"
+  integrity sha512-aqX9SgUIOYwWeD9xGlyGgFRmgvebw9EE8U5Y3Dcrhui1XvxWKnmuozs3w5JVhmEn5f42XDdOas5gkI/E7+hasA==
   dependencies:
     tslib "^2.2.0"
 
-"@angular/core@^12.1.4":
-  version "12.1.4"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.1.4.tgz#8150d53a7854f04b6bf2f25fa460781e1831b35e"
-  integrity sha512-dG7KtW0l3jI8lapmenSu1wV/d3VOphAjDxVqWOrwh+kI0da7677cEg0Ms5YIF8Nf/++WleyNxk6AIHbDIig+Sw==
+"@angular/core@^12.2.4":
+  version "12.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.2.4.tgz#000f76eda4382e249f39fe67cda5ac0976594ade"
+  integrity sha512-+TlS6vI56YkvUoQI/Er7kXzi5sjd/oayb8+iTnecX1u0UOpBYzcE8NLeHqSS9qPUjWSiw0JjgW07gdzxlye3aQ==
   dependencies:
     tslib "^2.2.0"
 
