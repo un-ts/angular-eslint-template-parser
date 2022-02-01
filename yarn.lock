@@ -198,17 +198,17 @@
     "@angular-eslint/bundled-angular-compiler" "12.7.0"
     "@typescript-eslint/experimental-utils" "4.28.2"
 
-"@angular/compiler@^12.2.15":
-  version "12.2.15"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-12.2.15.tgz#9ad9d66bc777cb9420e42bbffb6d0fb78fa3635d"
-  integrity sha512-w1n9J0C1KPzJyljtXY+DXcYjYSZmiWyFj31q5tFcYEA6jlCgDfZME2S3ilNGdmZAzfdPK4SVMi2ni2hFg7iQkw==
+"@angular/compiler@^12.2.16":
+  version "12.2.16"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-12.2.16.tgz#1aa9b3fbd3fe900118ab371d30c090fbc137a15f"
+  integrity sha512-nsYEw+yu8QyeqPf9nAmG419i1mtGM4v8+U+S3eQHQFXTgJzLymMykWHYu2ETdjUpNSLK6xcIQDBWtWnWSfJjAA==
   dependencies:
     tslib "^2.2.0"
 
-"@angular/core@^12.2.15":
-  version "12.2.15"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.2.15.tgz#e1b0b703a68dc9d626d43af082169299433f913b"
-  integrity sha512-67SS/eNN3kMvh5WSoRz5OPJYuh/kb9lFXS+iOgnDdPyI+HKdVlBrO4iW2EPCcE0gFrlVrbao8JrJfGtUz4Hs/w==
+"@angular/core@^12.2.16":
+  version "12.2.16"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.2.16.tgz#ec1dd07526ab2b8f808d21e8d5ab50f1a06c6aa8"
+  integrity sha512-jsmvaRdAfng99z2a9mAmkfcsCE1wm+tBYVDxnc5JquSXznwtncjzcoc2X0J0dzrkCDvzFfpTsZ9vehylytBc+A==
   dependencies:
     tslib "^2.2.0"
 
