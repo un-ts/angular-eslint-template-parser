@@ -21,7 +21,7 @@
     "@angular-eslint/template-parser": "*"
   },
   "devDependencies": {
-    "@1stg/common-config": "^2.5.2",
+    "@1stg/common-config": "^4.4.0",
     "@angular-eslint/template-parser": "^12.7.0",
     "@angular/compiler": "^12.2.16",
     "@angular/core": "^12.2.16",
