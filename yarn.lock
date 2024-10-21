@@ -157,6 +157,11 @@
   resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-12.7.0.tgz#e32ad1f98bf5c16dde22941e10fd014df7a1d5f2"
   integrity sha512-n7nUSIK+bl2DQXIPRyts/xVTw94Mk0rRNd2WBCL9ni27XKOhKtTdP7tLpD+nAiuY4BTTJr7/yTzPWCCRDQgWZg==
 
+"@angular-eslint/bundled-angular-compiler@18.4.0":
+  version "18.4.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-18.4.0.tgz#3503d8b796a3d9d6c997b342a3ae5ddf264601a4"
+  integrity sha512-HlFHt2qgdd+jqyVIkCXmrjHauXo/XY3Rp0UNabk83ejGi/raM/6lEFI7iFWzHxLyiAKk4OgGI5W26giSQw991A==
+
 "@angular-eslint/eslint-plugin-template@^12.5.0":
   version "12.7.0"
   resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin-template/-/eslint-plugin-template-12.7.0.tgz#8b2b504e3e909f90fcd067b332b45105c4475806"
@@ -175,13 +180,21 @@
     "@angular-eslint/utils" "12.7.0"
     "@typescript-eslint/experimental-utils" "4.28.2"
 
-"@angular-eslint/template-parser@^12.5.0", "@angular-eslint/template-parser@^12.7.0":
+"@angular-eslint/template-parser@^12.5.0":
   version "12.7.0"
   resolved "https://registry.yarnpkg.com/@angular-eslint/template-parser/-/template-parser-12.7.0.tgz#a91f23ea6d3fcefb24cc9e1be8a4df78c27addc7"
   integrity sha512-bTGRZ/2m2Z/MCoazWnpbPWLSBK8AsnHCuCXAgiiveYql0GD+PySP1EkBuiWesIyxCsYdzf4aQciJSVuQRo9jEQ==
   dependencies:
     "@angular-eslint/bundled-angular-compiler" "12.7.0"
     eslint-scope "^5.1.0"
+
+"@angular-eslint/template-parser@^18.4.0":
+  version "18.4.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/template-parser/-/template-parser-18.4.0.tgz#92d0cc51d709b81a0589cb2c4f248c797ccec529"
+  integrity sha512-VTep3Xd3IOaRIPL+JN/TV4/2DqUPbjtF3TNY15diD/llnrEhqFnmsvMihexbQyTqzOG+zU554oK44YfvAtHOrw==
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler" "18.4.0"
+    eslint-scope "^8.0.2"
 
 "@angular-eslint/utils@12.7.0":
   version "12.7.0"
@@ -3571,6 +3584,14 @@ eslint-scope@^5.1.0, eslint-scope@^5.1.1:
   dependencies:
     esrecurse "^4.3.0"
     estraverse "^4.1.1"
+
+eslint-scope@^8.0.2:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-8.1.0.tgz#70214a174d4cbffbc3e8a26911d8bf51b9ae9d30"
+  integrity sha512-14dSvlhaVhKKsa9Fx1l8A17s7ah7Ef7wCakJ10LYk6+GYmP9yDti2oq2SEwcyndt6knfcZyhyxwY3i9yL78EQw==
+  dependencies:
+    esrecurse "^4.3.0"
+    estraverse "^5.2.0"
 
 eslint-template-visitor@^2.3.2:
   version "2.3.2"
