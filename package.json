@@ -25,7 +25,7 @@
     "@angular-eslint/template-parser": "^12.7.0",
     "@angular/compiler": "^12.2.17",
     "@angular/core": "^12.2.17",
-    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.27.11",
     "@types/eslint": "^7.29.0",
     "clean-publish": "^2.2.0",
