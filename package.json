@@ -1,6 +1,7 @@
 {
   "name": "angular-eslint-template-parser",
   "version": "0.1.2",
+  "type": "commonjs",
   "repository": "git+https://github.com/un-ts/angular-eslint-template-parser.git",
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
@@ -14,9 +15,8 @@
   "scripts": {
     "build": "tsc -p jsconfig.json",
     "lint": "eslint --cache .",
-    "prepack": "clean-pkg-json",
+    "prepack": "yarn build && clean-pkg-json",
     "prepare": "simple-git-hooks || exit 0",
-    "prerelease": "yarn build",
     "release": "changeset publish"
   },
   "peerDependencies": {
