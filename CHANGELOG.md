@@ -1,5 +1,11 @@
 # angular-eslint-template-parser
 
+## 0.1.3
+
+### Patch Changes
+
+- [`639b41d`](https://github.com/un-ts/angular-eslint-template-parser/commit/639b41d3f582b3ba45d49be0bfa49c1df4498763) Thanks [@JounQin](https://github.com/JounQin)! - fix: should ship with types
+
 ## 0.1.2
 
 ### Patch Changes
