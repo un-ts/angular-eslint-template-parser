@@ -2,4 +2,4 @@
 "angular-eslint-template-parser": patch
 ---
 
-chore: bump deps
+chore: bump deps for plugin metadata

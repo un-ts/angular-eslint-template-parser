@@ -20,10 +20,13 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
-      - name: Setup Node.js 20.x
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Setup Node.js LTS
         uses: actions/setup-node@v4
         with:
-          node-version: 20.x
+          node-version: lts/*
           cache: yarn
 
       - name: Install Dependencies
@@ -36,6 +39,8 @@ jobs:
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           publish: yarn release
+          commit: 'chore: release angular-eslint-template-parser'
+          title: 'chore: release angular-eslint-template-parser'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
