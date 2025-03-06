@@ -1,5 +1,11 @@
 # angular-eslint-template-parser
 
+## 0.1.2
+
+### Patch Changes
+
+- [#70](https://github.com/un-ts/angular-eslint-template-parser/pull/70) [`1d4a6b5`](https://github.com/un-ts/angular-eslint-template-parser/commit/1d4a6b537c01ba08371e1ab0410c4ed41e91d238) Thanks [@JounQin](https://github.com/JounQin)! - chore: bump deps for plugin metadata
+
 ## 0.1.1
 
 ### Patch Changes
