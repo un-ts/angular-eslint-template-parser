@@ -1,31 +1,31 @@
 // @ts-check
 
 /**
- * @typedef {import('eslint').Linter.ESLintParseResult} ESLintParseResult
- * @typedef {{ filePath: string }} Options
+ * @import { Linter } from 'eslint'
+ * @import { ParserOptions } from '@angular-eslint/template-parser'
  */
 
-const _ =
-  /** @type {{parseForESLint: (code: string, options: Options) => ESLintParseResult}} */ (
-    /** @type {any} */ (require('@angular-eslint/template-parser'))
-  )
+const _ = require('@angular-eslint/template-parser')
 
 /**
  * @param {string} code
- * @param {Options} options
- * @returns {ESLintParseResult} parse result with AST
+ * @param {ParserOptions} options
+ * @returns {Linter.ESLintParseResult} parse result with AST
  */
 const parseForESLint = (code, options) => {
   const result = _.parseForESLint(code, options)
   result.ast.body = result.ast.body || []
-  return result
+  return /** @type {Linter.ESLintParseResult} */ (
+    /** @type {unknown} */ (result)
+  )
 }
 
 module.exports = {
+  ..._,
   parseForESLint,
   /**
    * @param {string} code
-   * @param {Options} options
+   * @param {ParserOptions} options
    * @returns {import('eslint').AST.Program} parsed AST result
    */
   parse: (code, options) => parseForESLint(code, options).ast,
