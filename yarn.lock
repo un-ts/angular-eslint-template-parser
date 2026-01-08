@@ -323,15 +323,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^19.2.1":
-  version: 19.2.1
-  resolution: "@angular/core@npm:19.2.1"
+"@angular/core@npm:^19.2.18":
+  version: 19.2.18
+  resolution: "@angular/core@npm:19.2.18"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0
-  checksum: 10c0/9124f81a181c72c98d3a7b57319885e7d8d54a26d4bab91018c643a76fdad039a4fb15f8fa297733951fca895bc8d1e7cac9388d1b3ff8dffeeff66628539eec
+  checksum: 10c0/3a452d571d8dfaa83058e797d2a8fc85f5e04d0db96febe92761a07508b1fcfe5b6aa84aa9add728f1292ef8e070cae86f44f0deec3fdab18b32dcd490bfef59
   languageName: node
   linkType: hard
 
@@ -3857,7 +3857,7 @@ __metadata:
     "@1stg/common-config": "npm:^10.0.0"
     "@angular-eslint/template-parser": "npm:^19.2.0"
     "@angular/compiler": "npm:^19.2.1"
-    "@angular/core": "npm:^19.2.1"
+    "@angular/core": "npm:^19.2.18"
     "@changesets/changelog-github": "npm:^0.5.1"
     "@changesets/cli": "npm:^2.28.1"
     "@commitlint/cli": "npm:^18.6.1"
