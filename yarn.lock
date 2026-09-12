@@ -324,14 +324,14 @@ __metadata:
   linkType: hard
 
 "@angular/core@npm:^19.2.1":
-  version: 19.2.1
-  resolution: "@angular/core@npm:19.2.1"
+  version: 19.2.25
+  resolution: "@angular/core@npm:19.2.25"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0
-  checksum: 10c0/9124f81a181c72c98d3a7b57319885e7d8d54a26d4bab91018c643a76fdad039a4fb15f8fa297733951fca895bc8d1e7cac9388d1b3ff8dffeeff66628539eec
+  checksum: 10c0/3db8146d74c911003ddeac103c4ac9daff50c19524f3e7fb1eb56b4355532a232a7c3859b910d1f76ae907ee4e49afd8ec585368300585298eda7f8ba5fe0a14
   languageName: node
   linkType: hard
 
