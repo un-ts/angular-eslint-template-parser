@@ -3866,7 +3866,7 @@ __metadata:
     eslint: "npm:^8.57.1"
     lint-staged: "npm:^15.4.3"
     prettier: "npm:^3.5.3"
-    simple-git-hooks: "npm:^2.11.1"
+    simple-git-hooks: "npm:^2.14.0"
     typescript: "npm:^5.8.2"
   peerDependencies:
     "@angular-eslint/template-parser": "*"
@@ -12327,7 +12327,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git-hooks@npm:^2.11.1, simple-git-hooks@npm:^2.9.0":
+"simple-git-hooks@npm:^2.14.0":
+  version: 2.14.0
+  resolution: "simple-git-hooks@npm:2.14.0"
+  bin:
+    simple-git-hooks: cli.js
+  checksum: 10c0/2ae4dc2583046b171b206e142f3dc277a363a6647df6e78766d2f26ab6598625011bad5251e3449890c2973c7a876eb93837efff1edf08cbdf84389bd59f51ca
+  languageName: node
+  linkType: hard
+
+"simple-git-hooks@npm:^2.9.0":
   version: 2.11.1
   resolution: "simple-git-hooks@npm:2.11.1"
   bin:
