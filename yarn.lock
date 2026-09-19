@@ -232,10 +232,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/bundled-angular-compiler@npm:19.2.0":
-  version: 19.2.0
-  resolution: "@angular-eslint/bundled-angular-compiler@npm:19.2.0"
-  checksum: 10c0/5496beda2ff44d8576f85485b05badfcd29f8837a1b41374db124df86f09a3c52c54d8a469024b5a86dd42b069ed7d7c4b47e8ea108c0a260a3a99fdaaee3f22
+"@angular-eslint/bundled-angular-compiler@npm:19.8.1":
+  version: 19.8.1
+  resolution: "@angular-eslint/bundled-angular-compiler@npm:19.8.1"
+  checksum: 10c0/743a51b9eeeb9d6a783f224efc34e4100ba95871961be8c3a9f42da4a346d70bc568b754fda587c60d133fd2342b2ca28e0620f11f9c1e5041529dd4a0c74644
   languageName: node
   linkType: hard
 
@@ -283,16 +283,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/template-parser@npm:^19.2.0":
-  version: 19.2.0
-  resolution: "@angular-eslint/template-parser@npm:19.2.0"
+"@angular-eslint/template-parser@npm:^19.8.1":
+  version: 19.8.1
+  resolution: "@angular-eslint/template-parser@npm:19.8.1"
   dependencies:
-    "@angular-eslint/bundled-angular-compiler": "npm:19.2.0"
+    "@angular-eslint/bundled-angular-compiler": "npm:19.8.1"
     eslint-scope: "npm:^8.0.2"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: "*"
-  checksum: 10c0/5f07684d1ec0ac339674615202295a7fb890da3c5d78d7116187c3e88b93b824a8f8c38fb5379613549d3451dcf0a9c8b85b9e342c77261907bf3ac2d5a98e08
+  checksum: 10c0/839ea72494376f21ed685d68534c44f3c5aeeb6692e6826c3504fa71102a8433194276c4943ccddaeb073f62b9dcf1691233d6cd1bfe61b58767da230a2613c7
   languageName: node
   linkType: hard
 
@@ -3855,7 +3855,7 @@ __metadata:
   resolution: "angular-eslint-template-parser@workspace:."
   dependencies:
     "@1stg/common-config": "npm:^10.0.0"
-    "@angular-eslint/template-parser": "npm:^19.2.0"
+    "@angular-eslint/template-parser": "npm:^19.8.1"
     "@angular/compiler": "npm:^19.2.1"
     "@angular/core": "npm:^19.2.1"
     "@changesets/changelog-github": "npm:^0.5.1"
