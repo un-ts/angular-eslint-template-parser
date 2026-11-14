@@ -39,6 +39,6 @@
     "typescript": "^5.8.2"
   },
   "resolutions": {
-    "eslint-plugin-jsdoc": "^48.3.0"
+    "eslint-plugin-jsdoc": "^48.11.0"
   }
 }
